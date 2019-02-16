@@ -37,6 +37,7 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.view);
 app.get('/Confirmation', confirmation.view);
+app.post('/Confirmation', confirmation.view);
 // Example route
 // app.get('/users', user.list);
 
