@@ -9,6 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
 
@@ -34,7 +35,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', index.view);
+//app.get('/', index.view);
+app.get('/', confirmation.view);
 // Example route
 // app.get('/users', user.list);
 
