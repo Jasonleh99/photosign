@@ -4,6 +4,6 @@
  */
 
 exports.view = function(req, res){
-  res.status(200).send('Hello API Event Received');
+  res.status(200).send({"message": "Hello API Event Received"});
 };
 
