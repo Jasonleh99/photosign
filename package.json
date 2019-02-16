@@ -2,24 +2,24 @@
   "name": "photosign",
   "version": "0.0.1",
   "author": "Jimmy, Jason, Victor",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/immmjimmy/photosign"
   },
   "license": "MIT",
-
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "express": "3.x",
     "express3-handlebars": "*",
     "mongodb": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "talkjs": "^0.7.0"
   },
   "engines": {
     "node": "8.9.x"
-  }  
+  }
 }

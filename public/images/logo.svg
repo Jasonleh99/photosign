@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 153.8" style="enable-background:new 0 0 152 153.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#path-2_2_);}
+	.st1{fill:#FFFFFF;fill-opacity:0.1;}
+	.st2{filter:url(#filter-3);}
+	.st3{fill:none;}
+	.st4{fill:url(#pretty-colors_1_);}
+	.st5{fill:url(#surrounding_1_);}
+	.st6{fill:url(#inner-knob_1_);}
+</style>
+<filter  filterUnits="objectBoundingBox" height="112.4%" id="filter-3" width="112.4%" x="-6.2%" y="-6.2%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="3"></feGaussianBlur>
+</filter>
+<title>2D Colors@1x</title>
+<desc>Created with Sketch.</desc>
+<g id="_x32_D-Colors">
+	<g id="Flat-Icon" transform="translate(124.000000, 74.000000)">
+		<g id="icon">
+			<g id="icon-shape">
+				<g>
+					
+						<linearGradient id="path-2_2_" gradientUnits="userSpaceOnUse" x1="-333.9276" y1="290.0987" x2="-333.9276" y2="289.0987" gradientTransform="matrix(152 0 0 -152 50709 44021)">
+						<stop  offset="0" style="stop-color:#FFD2DC"/>
+						<stop  offset="1" style="stop-color:#FCF2FC"/>
+					</linearGradient>
+					<path id="path-2" class="st0" d="M-80.4-74h64.8c15.2,0,20.7,1.6,26.2,4.5c5.5,3,9.9,7.3,12.9,12.9c3,5.5,4.5,11,4.5,26.2v64.8
+						c0,15.2-1.6,20.7-4.5,26.2c-3,5.5-7.3,9.9-12.9,12.9c-5.5,3-11,4.5-26.2,4.5h-64.8c-15.2,0-20.7-1.6-26.2-4.5
+						c-5.5-3-9.9-7.3-12.9-12.9c-3-5.5-4.5-11-4.5-26.2v-64.8c0-15.2,1.6-20.7,4.5-26.2c3-5.5,7.3-9.9,12.9-12.9
+						C-101.1-72.4-95.6-74-80.4-74z"/>
+				</g>
+				<g>
+					<path id="path-2_1_" class="st1" d="M-80.4-74h64.8c15.2,0,20.7,1.6,26.2,4.5c5.5,3,9.9,7.3,12.9,12.9c3,5.5,4.5,11,4.5,26.2
+						v64.8c0,15.2-1.6,20.7-4.5,26.2c-3,5.5-7.3,9.9-12.9,12.9c-5.5,3-11,4.5-26.2,4.5h-64.8c-15.2,0-20.7-1.6-26.2-4.5
+						c-5.5-3-9.9-7.3-12.9-12.9c-3-5.5-4.5-11-4.5-26.2v-64.8c0-15.2,1.6-20.7,4.5-26.2c3-5.5,7.3-9.9,12.9-12.9
+						C-101.1-72.4-95.6-74-80.4-74z"/>
+				</g>
+			</g>
+		</g>
+		<g id="color-base" transform="translate(4.000000, 4.000000)">
+			<g id="bevel" class="st2">
+				<circle class="st3" cx="-51.5" cy="-1.5" r="72.5"/>
+			</g>
+			
+				<linearGradient id="pretty-colors_1_" gradientUnits="userSpaceOnUse" x1="-338.0276" y1="285.5901" x2="-337.5907" y2="285.2186" gradientTransform="matrix(124 0 0 -124 41835 35387)">
+				<stop  offset="0" style="stop-color:#B5EEFF"/>
+				<stop  offset="1" style="stop-color:#FF87A1"/>
+			</linearGradient>
+			<circle id="pretty-colors" class="st4" cx="-52" cy="-2" r="62"/>
+			
+				<linearGradient id="surrounding_1_" gradientUnits="userSpaceOnUse" x1="-338.162" y1="285.7862" x2="-337.4745" y2="285.0687" gradientTransform="matrix(128 0 0 -128 43189 36533)">
+				<stop  offset="0" style="stop-color:#FF87A1"/>
+				<stop  offset="0.2639" style="stop-color:#BDB6FF"/>
+				<stop  offset="1" style="stop-color:#C4F1FF"/>
+			</linearGradient>
+			<path id="surrounding" class="st5" d="M-52,62c35.3,0,64-28.7,64-64s-28.7-64-64-64s-64,28.7-64,64S-87.3,62-52,62z M-52,56
+				C-20,56,6,30,6-2s-26-58-58-58s-58,26-58,58S-84,56-52,56z"/>
+		</g>
+		<g id="knob-shadow" transform="translate(42.000000, 36.000000)">
+		</g>
+		<g id="knob-base" transform="translate(47.000000, 47.000000)">
+			
+				<linearGradient id="inner-knob_1_" gradientUnits="userSpaceOnUse" x1="-380" y1="241.6379" x2="-380" y2="240.6379" gradientTransform="matrix(58 0 0 -58 21945 13941)">
+				<stop  offset="0" style="stop-color:#FFD2DC"/>
+				<stop  offset="1" style="stop-color:#FCF2FC"/>
+			</linearGradient>
+			<circle id="inner-knob" class="st6" cx="-95" cy="-45" r="29"/>
+		</g>
+	</g>
+</g>
+</svg>
