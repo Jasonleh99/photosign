@@ -35,8 +35,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-//app.get('/', index.view);
-app.get('/', confirmation.view);
+app.get('/', index.view);
+//app.get('/', confirmation.view);
+app.post('/', confirmation.view);
 // Example route
 // app.get('/users', user.list);
 
