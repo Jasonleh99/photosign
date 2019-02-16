@@ -3,6 +3,7 @@
  * Module dependencies.
  */
 
+
 var express = require('express');
 var http = require('http');
 var path = require('path');
@@ -11,6 +12,7 @@ var handlebars = require('express3-handlebars')
 var confirmation = require('./routes/confirmation');
 var messages = require('./routes/messages');
 var landing = require('./routes/landing');
+var releaseForm = require('./routes/releaseForm');
 // var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
@@ -43,6 +45,7 @@ app.post('/Confirmation', confirmation.view);
 
 app.get('/', landing.view);
 app.get('/messages', messages.view);
+app.get('/release-form', releaseForm.form);
 // Example route
 // app.get('/users', user.list);
 
