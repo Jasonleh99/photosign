@@ -1,6 +1,14 @@
+'use strict';
+
+$(document).ready(function() {
+    $('#sign-up').click(sendForm("../data/model.json", "../data/photographer.json"));
+});
+
 <script type="text/javascript" src="https://s3.amazonaws.com/cdn.hellosign.com/public/js/hellosign-embedded.LATEST.min.js"></script>
 const hellosign = require('hellosign-sdk')({ key: '5c06ce44f3fe798ba5cbfaae4ac8ddedc8b176a0a846b26e4b9513bb2c271b3e' });
 var clientID = '5c4de85db6346506547adfc62691f36f';
+
+
 
 function sendForm(photographerJson, modelJson){
   var photographer = JSON.parse(photographerJson);
