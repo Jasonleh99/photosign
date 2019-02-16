@@ -8,7 +8,6 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
-var index = require('./routes/index');
 var confirmation = require('./routes/confirmation');
 var messages = require('./routes/messages');
 var landing = require('./routes/landing');
@@ -38,9 +37,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-var multer  = require('multer');
-var upload = multer();
-app.post('/Confirmation', upload.array(), confirmation.view);
+//var multer  = require('multer');
+//var upload = multer();
+app.post('/Confirmation', confirmation.view);
 
 app.get('/', landing.view);
 app.get('/messages', messages.view);
