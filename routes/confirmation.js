@@ -1,6 +1,6 @@
 
 /*
- * GET home page.
+ * Callback handling for signatures.
  */
 
 exports.view = function(req, res,json){
