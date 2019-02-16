@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
     $('#sign-up').click(function () {
-      sendForm("../data/model.json", "../data/photographer.json")
+      sendForm("../data/model.json", "../data/photographer.json");
     });
 });
 
