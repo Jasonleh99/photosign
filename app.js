@@ -36,8 +36,11 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', index.view);
-app.get('/Confirmation', confirmation.view);
-app.post('/Confirmation', confirmation.view);
+
+var multer  = require('multer');
+var upload = multer();
+app.post('/Confirmation', upload.array(), confirmation.view);
+
 // Example route
 // app.get('/users', user.list);
 
