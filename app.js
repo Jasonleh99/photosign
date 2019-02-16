@@ -38,8 +38,6 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', index.view);
-
 var multer  = require('multer');
 var upload = multer();
 app.post('/Confirmation', upload.array(), confirmation.view);
