@@ -1,7 +1,9 @@
 'use strict';
 
 $(document).ready(function() {
-    $('#sign-up').click(sendForm("../data/model.json", "../data/photographer.json"));
+    $('#sign-up').click(function () {
+      sendForm("../data/model.json", "../data/photographer.json")
+    });
 });
 
 <script type="text/javascript" src="https://s3.amazonaws.com/cdn.hellosign.com/public/js/hellosign-embedded.LATEST.min.js"></script>
