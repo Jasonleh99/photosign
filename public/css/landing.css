@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'SFProDisplay-Regular';
+    src: url('../fonts/SFProDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SFProDisplay-Light';
+    src: url('../fonts/SFProDisplay-Light.ttf');
+}
+
+/* IDs */
+#welcome-message {
+    font-size: 50px;
+}
+
+#logo {
+    max-width: 50%;
+    max-height: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#home-logo {
+    max-width: 5%;
+    max-height: 5%;
+}
+
+/* Tags */
+nav, button {
+    font-family: 'SFProDisplay-Regular';
+    font-size: 20px;
+}
+
+nav {
+    background-color: white;
+}
+
+h5 {
+    font-family: 'SFProDisplay-Light';
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+body {
+    padding-top: 65px;
+    background-color: #ffedf9;
+}
