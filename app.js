@@ -10,6 +10,9 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var confirmation = require('./routes/confirmation');
+var messages = require('./routes/messages');
+var landing = require('./routes/landing');
+// var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
 
@@ -41,6 +44,8 @@ var multer  = require('multer');
 var upload = multer();
 app.post('/Confirmation', upload.array(), confirmation.view);
 
+app.get('/', landing.view);
+app.get('/messages', messages.view);
 // Example route
 // app.get('/users', user.list);
 
