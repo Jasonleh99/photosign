@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "photosign-232002",
+  "private_key_id": "bb5eca6ec8b4d6106592e5dc4271ede1d468d341",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzyuUl02TuV5dm\no9G+9X4HDYCA/PqmGHqGqlh/3x39/UscskBYw7DphguiFHPAsZZ3O7WXQ3p+1ULv\n0IBPmdiDhKfVVd3UkVzQWEWFmPVnPV8YZVXt4mkzVbLGuae0ISzQZV5BTFhpPuZo\nrRf6CZpIDi7BFyIRfy9cF5ACsCEE5TSObqoYgXp58ISPgAwn6f7uyBWeELMkmg48\nhyWN8+cR8iQirNWD4vDPQSyG0oG2jECWjAy+GvV9n+YsB22C0vHFT/LWzBrW5lxO\nglzCm1/7DMvBcXt8daZoXa3diRVyp1rgXDnC+H+ua+81bKkT4daZ7FFXA7ePMj6v\nywTEkhSdAgMBAAECggEADMR20cu+zN3GUq5a8xvP84nDVfBBD2GedSjXHduBr9CY\neyTzBKqpiefFieC4bexegkCTTwwmayfTTUrfNb031B0WkFknkSmyb4Qj3w5t4i3d\nmSf8ZRHGhTP2fP4K7p51e3tbU7lAxQEyZP1iaL8yUsrDtLK4bgl8BZGRyIhqi9mT\n0uUeNjM+lNuFd0sFJW3r4YgDH8RHC+2xMwp9svZUl4U0xEFDnDZRj9vPEUifgF9a\ne/R4ekeQgTO/VGyVA0hqwONy3exYzDeHd1gRX8U/6Lonfk1mX8IlJQopjHnKQVL5\nuOjqI/Ar3GN+Z5dV2i8YpgwonzN3jzGk0wlU9hECMQKBgQD4dgPoKsi5ILDGDYGX\n1rHyX/gsyE2c+Y8qISBnbMBn1QfHJ/Wp9kx/8tc2bWVB+XWqpZC5T8W582uhQgTE\nvQDT0K15VUcTAx7JArLxYjmLWItOpycjyIWGz5XMFsksbNRa8vcAQZtsdciUJiFA\nAMPJE+76sySw++mZXWecxnpcjQKBgQC5P3rmo0H/P9IcPdJ6sRWBcljbEC9zzDu3\ng+jZfUJRjHn8TlIOOL9IVWxx/5vOZpCffIrsAy5EYHZsTJV+85vxHe32fpQowmun\nCE4ZReX/vlmPOuNfawr8c10J9M8UYEadFdUD6vhI9vxODz/Q79Ljyasji8JhRz9r\n/649R8D8UQKBgAos6yQK/IV4bUTvMKuDQ25lt8g9u8/9+HsFOEqEDa0y8EqbvFfl\nmmRzEZVNDaSSDtuaRD8SoUpoSbQk/AUCqJIELdaWQ37n1c7tqV5xY2Htkmb6OYQh\npjZLMhtVo4+KNXg0EyGTjkX23OwUU7BHV71Yb6UcyRfmeT6qsJ+fEUvRAoGAZ5B8\nxjpZaDkm3xEU/fDIhCEIWhg3Xza74AIICKdFj0/I1ux2ZWsGTYssYKM1WPPwQKmh\nBQdWM3X2Xt+F6H6LHQbNhbQIYq0nAC/dcbWpOwwRB8k1Wp/+eVqJlkpeBxc4AxQ0\njccsXaZvMbjGxal+LkkNu4aj+jyZ0WgU4j+ePbECgYEAr5lSaNOvIYs312PM/0OP\n2xU6mzC1SmdmaQQtQ3h77sju9wiLPLrpBn3Xq7uXw+5aMyxxz8PUO9W0P3oILDhJ\nzdlHWMB84OFc1G+/eeUBdjIdzO/miMpzPAqmN1JVygB6BR/b3dAsDzK9qElifZxy\nR1UuI5W6EW0J1z4ZjB+LkcQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "photosign@photosign-232002.iam.gserviceaccount.com",
+  "client_id": "115461060670301097495",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/photosign%40photosign-232002.iam.gserviceaccount.com"
+}

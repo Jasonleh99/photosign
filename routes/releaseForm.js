@@ -4,6 +4,7 @@ const hellosign = require('hellosign-sdk')({ key: '5c06ce44f3fe798ba5cbfaae4ac8d
 var modelJson = require("./data/model.json");
 
 var photographerJson = require("./data/photographer.json");
+
 exports.form = function(req, res) {
   console.log(modelJson);
   sendForm(modelJson, photographerJson)

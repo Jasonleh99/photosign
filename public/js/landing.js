@@ -6,6 +6,10 @@ $(document).ready(function() {
         $('html, body').animate({
             scrollTop: $('#about').offset().top
         }, 900);
+
+        $.post('/test', function(data) {
+            console.log(data);
+        });
     })
 
 })

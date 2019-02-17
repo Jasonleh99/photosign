@@ -5,6 +5,7 @@
 
 
 var express = require('express');
+var bodyParser = require('body-parser');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
@@ -15,6 +16,7 @@ var landing = require('./routes/landing');
 var releaseForm = require('./routes/releaseForm');
 var signup = require('./routes/signup');
 var login = require('./routes/login');
+var cloudManager = require('./routes/cloudManager');
 // var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
@@ -36,6 +38,9 @@ app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
@@ -44,6 +49,9 @@ if ('development' == app.get('env')) {
 //var multer  = require('multer');
 //var upload = multer();
 app.post('/Confirmation', confirmation.view);
+app.post('/newUser', cloudManager.newUser);
+app.post('/newPic', cloudManager.newPicture);
+app.get('/encodeImage', cloudManager.encodeImage);
 
 app.get('/', landing.view);
 app.get('/messages', messages.view);
