@@ -14,7 +14,10 @@
     ;k=t.Promise;t.Talk={v:1,ready:{then:function(f){if(k)return new k(function(r,e){l.push([f,r,e])});l
     .push([f])},catch:function(){return k&&new k()},c:l}};})(window,document,[]);
     </script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/cdn.hellosign.com/public/js/hellosign-embedded.LATEST.min.js"></script>
+    <script src="/js/openDocument.js"></script>
     <script src="/js/messages.js"></script>
+
 </head>
 
 <body>
@@ -49,14 +52,21 @@
             <div id="talkjs-container" style="height: 85%; margin: 10px"><i>Loading chat...</i></div>
         </div>
         <div class="col col-lg-4">
-            <div class="container-fluid w-100" style="padding-top: 5rem;">
-                <div class="card" style="width: 20rem;">
-                    <div class="card-header">Name of Person</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Location</li>
-                        <li class="list-group-item">Send photo release</li>
-                    </ul>
-                </div>
+            <div class="container-fluid text-center" style="padding-top: 5rem;">
+                <button type="button" class="btn btn-custom-large" id="send-doc-btn">Send photo release</button>
+            </div>
+            <div class="container-fluid text-center" style="padding-top: 2rem;">
+                <button type="button" class="btn btn-custom-large" id="open-doc-btn">Open Doc</button>
+            </div>
+            <div class="container-fluid text-center" style="padding-top: 1rem;">
+                <form>
+                    <div class="form-group text-center" style="padding-left: 6rem; max-width: 75%">
+                        <input type="text" class="form-control" id="form-embed-url" placeholder="Paste embedded url">
+                    </div>
+                </form>
+            </div>
+            <div class="container-fluid text-center" style="padding-top: 1rem;">
+                <p id="embedded-url"></p>
             </div>
         </div>
     </div>

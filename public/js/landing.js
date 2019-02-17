@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $('#chevron').click(function() {
         // window.scrollTo(0,0);
         console.log('here');
@@ -7,5 +6,4 @@ $(document).ready(function() {
             scrollTop: $('#about').offset().top
         }, 900);
     })
-
 })

@@ -3,15 +3,20 @@
  * Module dependencies.
  */
 
+
 var express = require('express');
+var bodyParser = require('body-parser');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
+var confirmation = require('./routes/confirmation');
 var messages = require('./routes/messages');
 var landing = require('./routes/landing');
+var releaseForm = require('./routes/releaseForm');
 var signup = require('./routes/signup');
 var login = require('./routes/login');
+var cloudManager = require('./routes/cloudManager');
 var home = require('./routes/home');
 var accountPage = require('./routes/accountPage');
 // var confirmation = require('./routes/confirmation');
@@ -35,18 +40,37 @@ app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+//var multer  = require('multer');
+//var upload = multer();
+app.post('/Confirmation', confirmation.view);
+app.post('/newUser', cloudManager.newUser);
+app.post('/newPic', cloudManager.newPicture);
+app.get('/encodeImage', cloudManager.encodeImage);
 
 app.get('/', landing.view);
 app.get('/messages', messages.view);
+
+app.get('/release-form', releaseForm.form);
 app.get('/signup', signup.view);
 app.get('/login', login.view);
 app.get('/home', home.view);
 app.get('/accountPage', accountPage.view);
+app.get('/getSelf', messages.getSelf);
+app.get('/getPartner', messages.getPartner);
+
+
+app.post('/updateUser', signup.update);
+app.post('/updateUser2', login.update);
+app.post('/uploadImage', accountPage.saveImage);
+app.post('/sendPartner', messages.updatePartner);
 // Example route
 // app.get('/users', user.list);
 

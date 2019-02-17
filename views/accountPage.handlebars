@@ -10,6 +10,7 @@
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/jquery-1.11.0.js"></script>
         <script src="/js/bootstrap.bundle.js"></script>
+        <script src="/js/fileHandler.js"></script>
         <meta content="Launchpad by Anima" name="author">
         </meta>
         <link rel="stylesheet" href="css/accountPage.css">
@@ -45,15 +46,16 @@
             <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
                 <div class="centerbuttons">
                     <div class="modelbutton">
-                        <button type="button" class="btn btn-custom-large" href="#">Model Portfolio</button>
+                        <button type="button" class="btn btn-custom-large" id="model-port">Model Portfolio</button>
                     </div>
                     <div class="photobutton">
-                        <button type="button" class="btn btn-custom-large" href="#">Photo Portfolio</button>
+                        <button type="button" class="btn btn-custom-large" id="photo-port">Photo Portfolio</button>
                     </div>
                 </div>
                 <div class="profilepic">
                     <div class="add">
-                        <button type="button" class="btn btn-custom-large" href="#">Add a New Photo</button>
+                        <input type="file" class="form-control-file" id="picture-upload"></input>
+                        <button type="button" class="btn btn-custom-large" href="#">Submit</button>
                     </div>
                     <div class="victortran">
                         Victor Kim
@@ -71,11 +73,7 @@
                         <span class="span1">Seeking: <br /></span><span class="span2">Photographers<br />Models</span>
                     </div>
                 </div>
-                <a href="homepage.html">
-                    <div class="hotspot">
-                    </div>
-                </a>
-                <div class="photogrid">
+                <div class="photogrid" id="photo-portfolio">
                     <img anima-src="./images/account-page-rectangle.jpg" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <img anima-src="./images/account-page-rectangle-1.jpg" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <img anima-src="./images/account-page-rectangle-2.jpg" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
@@ -86,14 +84,17 @@
                     <img anima-src="./images/account-page-rectangle-7.jpg" class="rectangle7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <img anima-src="./images/account-page-rectangle-8.jpg" class="rectangle8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
-                <a href="landingpage.html">
-                    <div class="hotspot1">
-                    </div>
-                </a>
-                <a href="addphoto1.html">
-                    <div class="hotspot2">
-                    </div>
-                </a>
+                <div class="photogrid" id="model-portfolio">
+                    <img anima-src="./images/account-page-rectangle.jpg" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-1.jpg" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-2.jpg" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-3.jpg" class="rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-4.jpg" class="rectangle4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-5.jpg" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-6.jpg" class="rectangle6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-7.jpg" class="rectangle7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-8.jpg" id="hidepic" class="rectangle8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
             </div>
         </div>
         <!-- Scripts -->

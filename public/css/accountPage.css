@@ -1,23 +1,23 @@
 
 @font-face {
     font-family: "SFProDisplay-Semibold";
-    src: url('../fonts/SF-Pro-Display-Semibold.ttf') ;
+    src: url('../fonts/SFProDisplay-Semibold.ttf') ;
   }
   @font-face {
     font-family: "SFProDisplay-Medium";
-    src: url('../fonts/SF-Pro-Display-Medium.ttf') ;
+    src: url('../fonts/SFProDisplay-Medium.ttf') ;
   }
   @font-face {
     font-family: "SFProDisplay-Light";
-    src: url('../fonts/SF-Pro-Display-Light.ttf') ;
+    src: url('../fonts/SFProDisplay-Light.ttf') ;
   }
   @font-face {
     font-family: "SFProDisplay-Bold";
-    src: url('../fonts/SF-Pro-Display-Bold.ttf') ;
+    src: url('../fonts/SFProDisplay-Bold.ttf') ;
   }
   @font-face {
     font-family: "SFProDisplay-Regular";
-    src: url('../fonts/SF-Pro-Display-Regular.ttf') ;
+    src: url('../fonts/SFProDisplay-Regular.ttf') ;
   }
 
 #home-logo {
@@ -60,7 +60,6 @@ a:hover {
     color: white;
     background-color: #ff87a1;
     border-color: #ff87a1;
-    font-weight: 1000;
     font-size: 1.8rem;
     border-radius: 1.2rem;
     padding-left: 1rem;
