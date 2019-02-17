@@ -13,6 +13,8 @@ var confirmation = require('./routes/confirmation');
 var messages = require('./routes/messages');
 var landing = require('./routes/landing');
 var releaseForm = require('./routes/releaseForm');
+var signup = require('./routes/signup');
+var login = require('./routes/login');
 // var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
@@ -46,6 +48,8 @@ app.post('/Confirmation', confirmation.view);
 app.get('/', landing.view);
 app.get('/messages', messages.view);
 app.get('/release-form', releaseForm.form);
+app.get('/signup', signup.view);
+app.get('/login', login.view);
 // Example route
 // app.get('/users', user.list);
 

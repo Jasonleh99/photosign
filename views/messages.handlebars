@@ -4,54 +4,59 @@
     <meta charset="utf-8">
 	<link href="/css/bootstrap-grid.css" rel="stylesheet">
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <!-- <link href="/css/messages.css" rel="stylesheet"> -->
+    <link href="/css/messages.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/jquery-1.11.0.js"></script>
 	<script src="/js/bootstrap.bundle.js"></script>
-</head>
-
-<body>
-    <!-- minified snippet to load TalkJS without delaying your page -->
     <script>
     (function(t,a,l,k,j,s){
     s=a.createElement('script');s.async=1;s.src="https://cdn.talkjs.com/talk.js";a.head.appendChild(s)
     ;k=t.Promise;t.Talk={v:1,ready:{then:function(f){if(k)return new k(function(r,e){l.push([f,r,e])});l
     .push([f])},catch:function(){return k&&new k()},c:l}};})(window,document,[]);
     </script>
+    <script src="/js/messages.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <a href="/"><img class="navbar-brand" src="images/logo.png" alt="logo"></a>
+        <h5>photosign</h5>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- container element in which TalkJS will display a chat UI -->
-    <div id="talkjs-container" style="height: 95%; margin: 10px"><i>Loading chat...</i></div>
-
-
-    <!-- TalkJS initialization code, which we'll customize in the next steps -->
-    <script>
-    Talk.ready.then(function() {
-        var me = new Talk.User({
-            id: "123456",
-            name: "Alice",
-            email: "alice@example.com",
-            photoUrl: "https://demo.talkjs.com/img/alice.jpg",
-            welcomeMessage: "Hey there! How are you? :-)"
-        });
-        window.talkSession = new Talk.Session({
-            appId: "t6QYCU3m",
-            me: me
-        });
-        var other = new Talk.User({
-            id: "654321",
-            name: "Sebastian",
-            email: "Sebastian@example.com",
-            photoUrl: "https://demo.talkjs.com/img/sebastian.jpg",
-            welcomeMessage: "Hey, how can I help?"
-        });
-
-        var conversation = talkSession.getOrCreateConversation(Talk.oneOnOneId(me, other));
-        conversation.setParticipant(me);
-        conversation.setParticipant(other);
-        var inbox = talkSession.createInbox({selected: conversation});
-        inbox.mount($("#talkjs-container"));
-    });
-    </script>
+    <div class="row">
+        <div class="col col-lg-8">
+            <div id="talkjs-container" style="height: 85%; margin: 10px"><i>Loading chat...</i></div>
+        </div>
+        <div class="col col-lg-4">
+            <div class="container-fluid w-100" style="padding-top: 5rem;">
+                <div class="card" style="width: 20rem;">
+                    <div class="card-header">Name of Person</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Location</li>
+                        <li class="list-group-item">Send photo release</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
