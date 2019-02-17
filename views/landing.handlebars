@@ -5,29 +5,34 @@
 	<link href="/css/bootstrap-grid.css" rel="stylesheet">
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/landing.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/jquery-1.11.0.js"></script>
 	<script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/landing.js"></script>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg">
-        <img src="images/logo.png" alt="logo" id="home-logo">
-        <h5>photosign</h5>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" id="nav-item-logo">
+                <a href="/"><img src="images/logo.png" alt="logo" id="home-logo"></a>
+            </li>
+            <li class="nav-item">
+                <a href="/"><h5>photosign</h5></a>
+            </li>
+        </ul>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup">Sign Up</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sign Up</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/login">Log In</a>
                 </li>
             </ul>
         </div>
@@ -46,17 +51,28 @@
                     <h2 id="welcome-message">welcome to photosign</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="chevron">
                 <div class="col col-lg-12">
-                    <button type="button" class="btn btn-dark btn-lg">Sign up!</button>
+                    <button type="button" class="btn btn-custom-chevron"><i class="fa fa-chevron-down fa-5x"></i></button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- About -->
-    <div class="container-fluid h-100 w-100" id="about">
-        <h2 class="text-center">Who are we?</h2>
+    <div class="container-fluid h-100 w-100 d-flex justify-content-center align-items-center" id="about">
+        <div class="row">
+            <div class="col col-md-2"></div>
+            <div class="col col-md-8">
+                <h2>what's photosign?</h2>
+                <br />
+                <h2 id="about-description">
+                    photosign is a modern solution for photographers looking to network
+                    and keep track of their portfolios.
+                </h2>
+            </div>
+            <div class="col col-md-2"></div>
+        </div>
     </div>
 </body>
 

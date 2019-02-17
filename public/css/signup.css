@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'SFProDisplay-Semibold';
+    src: url('../fonts/SFProDisplay-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'SFProDisplay-Light';
+    src: url('../fonts/SFProDisplay-Light.ttf');
+}
+
+/* IDs */
+#nav-item-logo {
+    max-width: 25%;
+}
+
+#home-logo {
+    width: 75%;
+    height: auto;
+}
+
+/* Classes */
+.email-custom {
+    height: 70px;
+}
+
+.pad-custom {
+    padding-top: 10px;
+}
+
+.btn-custom-large {
+    color: white;
+    background-color: #ff87a1;
+    border-color: #ff87a1;
+    font-weight: 1000;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
+    width: 450px;
+}
+
+.btn-custom-large:hover {
+    color: #ff87a1;
+    background-color: white;
+}
+
+/* Tags */
+body {
+    background-color: #ffedf9;
+}
+
+nav {
+    background-color: white;
+}
+
+h2.custom-h2-signup {
+    font-family: 'SFProDisplay-Semibold';
+    font-size: 65px;
+}
+
+h5 {
+    font-family: 'SFProDisplay-Light';
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+     color: #7c8483; 
+     text-decoration:none; 
+     cursor:pointer;  
+}

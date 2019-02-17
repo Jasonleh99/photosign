@@ -8,6 +8,11 @@
     src: url('../fonts/SFProDisplay-Light.ttf');
 }
 
+@font-face {
+    font-family: 'SFProDisplay-Semibold';
+    src: url('../fonts/SFProDisplay-SemiBold.ttf');
+}
+
 /* IDs */
 #welcome-message {
     font-size: 50px;
@@ -21,8 +26,20 @@
 }
 
 #home-logo {
-    max-width: 5%;
-    max-height: 5%;
+    width: 75%;
+    height: auto;
+}
+
+#nav-item-logo {
+    max-width: 25%;
+}
+
+#about-description {
+    font-family: 'SFProDisplay-Light';
+}
+
+#chevron {
+    padding-top: 45px;
 }
 
 /* Tags */
@@ -38,10 +55,21 @@ nav {
 h5 {
     font-family: 'SFProDisplay-Light';
     font-size: 30px;
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 body {
     padding-top: 65px;
     background-color: #ffedf9;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+     color: #7c8483; 
+     text-decoration: none; 
+     cursor: pointer;
 }
