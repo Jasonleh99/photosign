@@ -1,0 +1,887 @@
+
+@font-face {
+    font-family: "SFProDisplay-Semibold";
+    src: url('../fonts/SF-Pro-Display-Semibold.ttf') ;
+  }
+  @font-face {
+    font-family: "SFProDisplay-Medium";
+    src: url('../fonts/SF-Pro-Display-Medium.ttf') ;
+  }
+  @font-face {
+    font-family: "SFProDisplay-Light";
+    src: url('../fonts/SF-Pro-Display-Light.ttf') ;
+  }
+  @font-face {
+    font-family: "SFProDisplay-Bold";
+    src: url('../fonts/SF-Pro-Display-Bold.ttf') ;
+  }
+  @font-face {
+    font-family: "SFProDisplay-Regular";
+    src: url('../fonts/SF-Pro-Display-Regular.ttf') ;
+  }
+
+#home-logo {
+    width: 75%;
+    height: auto;
+}
+
+#nav-item-logo {
+    max-width: 25%;
+}
+
+nav {
+    font-family: 'SFProDisplay-Regular';
+    font-size: 20px;
+    background-color: white;
+}
+
+h5 {
+    font-family: 'SFProDisplay-Light';
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+body {
+    background-color: #ffedf9;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+     color: #7c8483; 
+     text-decoration: none; 
+     cursor: pointer;
+}
+
+.btn-custom-large {
+    color: white;
+    background-color: #ff87a1;
+    border-color: #ff87a1;
+    font-weight: 1000;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-custom-large:hover {
+    color: #ff87a1;
+    background-color: white;
+}
+
+.accountpage {
+width               : 100%;
+min-width           : 1440px;
+height              : 100vh;
+min-height          : 1140px;
+position            : relative;
+overflow            : hidden;
+margin              : 0px;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+a {
+text-decoration     : none;
+}
+div {
+-webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+width               : 100%;
+}
+.anima-full-height-a {
+height              : 100%;
+}
+div {
+-webkit-text-size-adjust: none;
+}
+.accountpage .herotitle {
+background-color    : rgba(208, 208, 208, 1.0);
+top                 : 0px;
+height              : 1140px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+overflow            : hidden;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .baselayer {
+background-color    : rgba(208, 208, 208, 1.0);
+top                 : 0px;
+height              : 1140px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 140px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .homebar {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 140px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .logout {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 1283px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+font-size           : 20.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 24.0px;
+}
+.accountpage .herotitle .topnagivation .account {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 1192px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+font-size           : 20.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 24.0px;
+}
+.accountpage .herotitle .topnagivation .photosign {
+background-color    : rgba(255,255,255,0.0);
+top                 : 35px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 146px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Light", Helvetica, Arial, serif;
+font-size           : 50.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 60.0px;
+}
+.accountpage .herotitle .topnagivation .flaticon {
+background-color    : rgba(255,255,255,0.0);
+top                 : 35px;
+height              : 74px;
+width               : 74px;
+position            : absolute;
+margin              : 0;
+left                : 42px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .icon {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 74px;
+width               : 74px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .icon .iconshape {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 74px;
+width               : 74px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .colorbase {
+background-color    : rgba(255,255,255,0.0);
+top                 : 2px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 2px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .colorbase .bevel {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .colorbase .prettycolors {
+background-color    : rgba(255,255,255,0.0);
+top                 : 5px;
+height              : 60px;
+width               : 60px;
+position            : absolute;
+margin              : 0;
+left                : 5px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .colorbase .surrounding {
+background-color    : rgba(255,255,255,0.0);
+top                 : 4px;
+height              : 62px;
+width               : 62px;
+position            : absolute;
+margin              : 0;
+left                : 4px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .knobshadow {
+background-color    : rgba(255,255,255,0.0);
+top                 : 17px;
+height              : 39px;
+width               : 33px;
+position            : absolute;
+margin              : 0;
+left                : 20px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .knobbase {
+background-color    : rgba(255,255,255,0.0);
+top                 : 22px;
+height              : 30px;
+width               : 30px;
+position            : absolute;
+margin              : 0;
+left                : 22px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .herotitle .topnagivation .flaticon .knobbase .innerknob {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 28px;
+width               : 28px;
+position            : relative;
+margin              : 0;
+left                : 1px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons {
+background-color    : rgba(255,255,255,0.0);
+top                 : 129px;
+height              : 54px;
+width               : 519px;
+position            : absolute;
+margin              : 0;
+left                : 673px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons .modelbutton {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 54px;
+width               : 222px;
+position            : absolute;
+margin              : 0;
+left                : 297px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons .modelbutton .label {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 54px;
+width               : 222px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons .modelbutton .label .rectangle {
+background-color    : rgba(255, 210, 220, 1.0);
+top                 : 0px;
+height              : 54px;
+width               : 222px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 16px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons .modelbutton .label .model {
+background-color    : rgba(255,255,255,0.0);
+top                 : 12px;
+height              : auto;
+width               : 222px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 25.0px;
+color               : rgba(255, 255, 255, 1.0);
+text-align          : center;
+line-height         : 30.0px;
+}
+.accountpage .centerbuttons .photobutton {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 54px;
+width               : 222px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons .photobutton .label {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 54px;
+width               : 222px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons .photobutton .label .rectangle {
+background-color    : rgba(255, 135, 161, 1.0);
+top                 : 0px;
+height              : 54px;
+width               : 222px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 16px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .centerbuttons .photobutton .label .photo {
+background-color    : rgba(255,255,255,0.0);
+top                 : 12px;
+height              : auto;
+width               : 216px;
+position            : absolute;
+margin              : 0;
+left                : 3px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 25.0px;
+color               : rgba(255, 255, 255, 1.0);
+text-align          : center;
+line-height         : 30.0px;
+}
+.accountpage .profilepic {
+background-color    : rgba(255,255,255,0.0);
+top                 : 184px;
+height              : 704px;
+width               : 260px;
+position            : absolute;
+margin              : 0;
+left                : 79px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .profilepic .add {
+background-color    : rgba(255,255,255,0.0);
+top                 : 650px;
+height              : 54px;
+width               : 250px;
+position            : absolute;
+margin              : 0;
+left                : 11px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .profilepic .add .rectangle {
+background-color    : rgba(255, 135, 161, 1.0);
+top                 : 0px;
+height              : 54px;
+width               : 222px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 16px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .profilepic .add .addanewphoto {
+background-color    : rgba(255,255,255,0.0);
+top                 : 12px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 14px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+font-size           : 25.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 30.0px;
+}
+.accountpage .profilepic .victortran {
+background-color    : rgba(255,255,255,0.0);
+top                 : 276px;
+height              : auto;
+width               : 219px;
+position            : absolute;
+margin              : 0;
+left                : 21px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+font-size           : 45.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : center;
+line-height         : 54.0px;
+}
+.accountpage .profilepic .victortran1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 261px;
+width               : 260px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .profilepic .victortran1 .victortran2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 261px;
+width               : 260px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .profilepic .contact6262343 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 570px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 25px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+font-size           : 25.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 30.0px;
+}
+.accountpage .profilepic .locationorangecou {
+background-color    : rgba(255,255,255,0.0);
+top                 : 480px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 25px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+font-size           : 25.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 30.0px;
+}
+.accountpage .profilepic .locationorangecou .span1 {
+
+}
+.accountpage .profilepic .locationorangecou .span2 {
+font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+}
+.accountpage .profilepic .seekingphotographe {
+background-color    : rgba(255,255,255,0.0);
+top                 : 360px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 25px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+font-size           : 25.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 30.0px;
+}
+.accountpage .profilepic .seekingphotographe .span1 {
+
+}
+.accountpage .profilepic .seekingphotographe .span2 {
+font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+}
+.accountpage .hotspot {
+background-color    : rgba(255,255,255,0.0);
+top                 : 35px;
+height              : 74px;
+width               : 74px;
+position            : absolute;
+margin              : 0;
+left                : 42px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .photogrid {
+background-color    : rgba(255,255,255,0.0);
+top                 : 233px;
+height              : 827px;
+width               : 831px;
+position            : absolute;
+margin              : 0;
+left                : 517px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .photogrid .rectangle {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 302px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 604px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 301px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle4 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 301px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 302px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle5 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 301px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 604px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle6 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 601px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle7 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 601px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 302px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .photogrid .rectangle8 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 601px;
+height              : 226px;
+box-sizing          : border-box;
+width               : 227px;
+position            : absolute;
+margin              : 0;
+left                : 604px;
+border-radius       : 15px;
+border-style        : solid;
+border-width        : 1px;
+border-color        : rgba(150, 150, 150, 1.0);
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+object-fit          : cover;
+}
+.accountpage .hotspot1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : 23px;
+width               : 69px;
+position            : absolute;
+margin              : 0;
+left                : 1283px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.accountpage .hotspot2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 834px;
+height              : 54px;
+width               : 222px;
+position            : absolute;
+margin              : 0;
+left                : 90px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+opacity             : 0;
+display             : block;
+-webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+-moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+-o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+opacity             : 1;
+display             : block;
+-webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+-moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+-o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+-webkit-animation-delay: 0;
+-moz-animation-delay: 0;
+-o-animation-delay  : 0;
+animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@-moz-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@-o-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}

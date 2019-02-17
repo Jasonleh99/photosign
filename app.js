@@ -12,6 +12,8 @@ var messages = require('./routes/messages');
 var landing = require('./routes/landing');
 var signup = require('./routes/signup');
 var login = require('./routes/login');
+var home = require('./routes/home');
+var accountPage = require('./routes/accountPage');
 // var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
@@ -38,10 +40,13 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+
 app.get('/', landing.view);
 app.get('/messages', messages.view);
 app.get('/signup', signup.view);
 app.get('/login', login.view);
+app.get('/home', home.view);
+app.get('/accountPage', accountPage.view);
 // Example route
 // app.get('/users', user.list);
 
