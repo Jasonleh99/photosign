@@ -10,6 +10,8 @@ var handlebars = require('express3-handlebars')
 
 var messages = require('./routes/messages');
 var landing = require('./routes/landing');
+var signup = require('./routes/signup');
+var login = require('./routes/login');
 // var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
@@ -38,6 +40,8 @@ if ('development' == app.get('env')) {
 
 app.get('/', landing.view);
 app.get('/messages', messages.view);
+app.get('/signup', signup.view);
+app.get('/login', login.view);
 // Example route
 // app.get('/users', user.list);
 
