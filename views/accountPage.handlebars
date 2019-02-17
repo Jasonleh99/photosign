@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./images/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
+        <link href="/css/bootstrap-grid.css" rel="stylesheet">
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="./css/accountPage.css" rel="stylesheet" type="text/css"/>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/jquery-1.11.0.js"></script>
+        <script src="/js/bootstrap.bundle.js"></script>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+        <link rel="stylesheet" href="css/accountPage.css">
+    </head>
+    <body style="margin: 0;">
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" id="nav-item-logo">
+                    <a href="/home"><img src="images/logo.png" alt="logo" id="home-logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/home"><h5>photosign</h5></a>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/accountPage">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Sign out</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <input id="anPageName" name="page" type="hidden" value="accountpage"/>
+        <div class="accountpage">
+            <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+                <div class="centerbuttons">
+                    <div class="modelbutton">
+                        <button type="button" class="btn btn-custom-large" href="#">Model Portfolio</button>
+                    </div>
+                    <div class="photobutton">
+                        <button type="button" class="btn btn-custom-large" href="#">Photo Portfolio</button>
+                    </div>
+                </div>
+                <div class="profilepic">
+                    <div class="add">
+                        <button type="button" class="btn btn-custom-large" href="#">Add a New Photo</button>
+                    </div>
+                    <div class="victortran">
+                        Victor Kim
+                    </div>
+                    <div class="victortran1">
+                        <img anima-src="./images/account-page-victor-tran@2x.png" class="victortran2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                    <div class="contact6262343">
+                        Contact:<br />(626) 234-3453
+                    </div>
+                    <div class="locationorangecou">
+                        <span class="span1">Location:<br /></span><span class="span2">Orange County, CA</span>
+                    </div>
+                    <div class="seekingphotographe">
+                        <span class="span1">Seeking: <br /></span><span class="span2">Photographers<br />Models</span>
+                    </div>
+                </div>
+                <a href="homepage.html">
+                    <div class="hotspot">
+                    </div>
+                </a>
+                <div class="photogrid">
+                    <img anima-src="./images/account-page-rectangle.jpg" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-1.jpg" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-2.jpg" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-3.jpg" class="rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-4.jpg" class="rectangle4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-5.jpg" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-6.jpg" class="rectangle6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-7.jpg" class="rectangle7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./images/account-page-rectangle-8.jpg" class="rectangle8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <a href="landingpage.html">
+                    <div class="hotspot1">
+                    </div>
+                </a>
+                <a href="addphoto1.html">
+                    <div class="hotspot2">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>
