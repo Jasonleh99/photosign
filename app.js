@@ -17,6 +17,8 @@ var releaseForm = require('./routes/releaseForm');
 var signup = require('./routes/signup');
 var login = require('./routes/login');
 var cloudManager = require('./routes/cloudManager');
+var home = require('./routes/home');
+var accountPage = require('./routes/accountPage');
 // var confirmation = require('./routes/confirmation');
 // Example route
 // var user = require('./routes/user');
@@ -58,6 +60,8 @@ app.get('/messages', messages.view);
 app.get('/release-form', releaseForm.form);
 app.get('/signup', signup.view);
 app.get('/login', login.view);
+app.get('/home', home.view);
+app.get('/accountPage', accountPage.view);
 // Example route
 // app.get('/users', user.list);
 

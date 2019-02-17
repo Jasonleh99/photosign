@@ -1,0 +1,1115 @@
+@font-face {
+    font-family: "SFProDisplay-Semibold";
+    src: url('../fonts/SF-Pro-Display-Semibold.otf') format("opentype");
+  }
+  @font-face {
+    font-family: "SFProDisplay-Medium";
+    src: url('../fonts/SF-Pro-Display-Medium.otf') format("opentype");
+  }
+  @font-face {
+    font-family: "SFProDisplay-Light";
+    src: url('../fonts/SF-Pro-Display-Light.otf') format("opentype");
+  }
+  @font-face {
+    font-family: "SFProDisplay-Bold";
+    src: url('../fonts/SF-Pro-Display-Bold.otf') format("opentype");
+  }
+  @font-face {
+    font-family: "SFProDisplay-Regular";
+    src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
+  }
+
+#home-logo {
+    width: 75%;
+    height: auto;
+}
+
+#nav-item-logo {
+    max-width: 25%;
+}
+
+nav, button {
+    font-family: 'SFProDisplay-Regular';
+    font-size: 20px;
+}
+
+nav {
+    background-color: white;
+}
+
+h5 {
+    font-family: 'SFProDisplay-Light';
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7c8483; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+body {
+    background-color: #ffedf9;
+}
+
+.homepage {
+width               : 100%;
+min-width           : 1440px;
+height              : 100vh;
+min-height          : 2600px;
+position            : relative;
+overflow            : hidden;
+margin              : 0px;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+a {
+text-decoration     : none;
+}
+div {
+-webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+width               : 100%;
+}
+.anima-full-height-a {
+height              : 100%;
+}
+div {
+-webkit-text-size-adjust: none;
+}
+.homepage .herotitle {
+background-color    : rgba(208, 208, 208, 1.0);
+top                 : 0px;
+height              : 800px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+overflow            : hidden;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .herotitle .baselayer {
+background-color    : rgba(208, 208, 208, 1.0);
+top                 : 0px;
+height              : 800px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .herotitle .white {
+background-color    : rgba(255, 255, 255, 1.0);
+top                 : 0px;
+height              : 2600px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1776px;
+height              : 729px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 372px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 .card {
+background-color    : rgba(255,255,255,0.0);
+top                 : 90px;
+height              : 639px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 .card .image {
+background-color    : rgba(0, 0, 0, 1.0);
+top                 : 0px;
+height              : 639px;
+width               : 640px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+overflow            : hidden;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 .card .image .mask {
+background-color    : rgba(0, 0, 0, 1.0);
+top                 : 0px;
+height              : 639px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 .card .image .mountain {
+background-color    : rgba(255,255,255,0.0);
+top                 : -193px;
+height              : 1349px;
+width               : 1080px;
+position            : absolute;
+margin              : 0;
+left                : -180px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 .nathanpark {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 198px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 .nathanpark .nathanpark2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 22px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 99px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .maincard3 .nathanpark .nathanpark1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard3 .nathanpark .nathanpark1 .nathanpark3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 968px;
+height              : 729px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 372px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 .card {
+background-color    : rgba(255,255,255,0.0);
+top                 : 90px;
+height              : 639px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 .card .image {
+background-color    : rgba(0, 0, 0, 1.0);
+top                 : 0px;
+height              : 639px;
+width               : 640px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+overflow            : hidden;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 .card .image .mask {
+background-color    : rgba(0, 0, 0, 1.0);
+top                 : 0px;
+height              : 639px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 .card .image .japancool {
+background-color    : rgba(255,255,255,0.0);
+top                 : -592px;
+height              : 1349px;
+width               : 1080px;
+position            : absolute;
+margin              : 0;
+left                : -280px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 .joannekim {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 193px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 .joannekim .joannekim2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 25px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 98px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .maincard2 .joannekim .joannekim1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard2 .joannekim .joannekim1 .joannekim3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 159px;
+height              : 729px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 372px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 .card {
+background-color    : rgba(255,255,255,0.0);
+top                 : 90px;
+height              : 639px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 .card .image {
+background-color    : rgba(0, 0, 0, 1.0);
+top                 : 0px;
+height              : 639px;
+width               : 640px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+overflow            : hidden;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 .card .image .mask {
+background-color    : rgba(0, 0, 0, 1.0);
+top                 : 0px;
+height              : 639px;
+width               : 640px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+border-radius       : 15px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 .card .image .nice {
+background-color    : rgba(255,255,255,0.0);
+top                 : -229px;
+height              : 1343px;
+width               : 1080px;
+position            : absolute;
+margin              : 0;
+left                : -182px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 .jackiehoang {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 201px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 .jackiehoang .jackiehoang2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 25px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 90px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .maincard1 .jackiehoang .jackiehoang1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .maincard1 .jackiehoang .jackiehoang1 .jackiehoang3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou {
+background-color    : rgba(255,255,255,0.0);
+top                 : 172px;
+height              : 623px;
+width               : 274px;
+position            : absolute;
+margin              : 0;
+left                : 1092px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .jackiehoang {
+background-color    : rgba(255,255,255,0.0);
+top                 : 553px;
+height              : 70px;
+width               : 201px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .jackiehoang .jackiehoang2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 25px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 90px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .modelsnearyou .jackiehoang .jackiehoang1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .jackiehoang .jackiehoang1 .jackiehoang3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .line {
+background-color    : rgba(192, 184, 184, 1.0);
+top                 : 531px;
+height              : 0px;
+width               : 189px;
+position            : absolute;
+margin              : 0;
+left                : 16px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+opacity             : 0.3;
+}
+.homepage .modelsnearyou .joannekim {
+background-color    : rgba(255,255,255,0.0);
+top                 : 431px;
+height              : 70px;
+width               : 193px;
+position            : absolute;
+margin              : 0;
+left                : 17px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .joannekim .joannekim2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 24px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 98px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .modelsnearyou .joannekim .joannekim1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .joannekim .joannekim1 .joannekim3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .line1 {
+background-color    : rgba(192, 184, 184, 1.0);
+top                 : 409px;
+height              : 0px;
+width               : 189px;
+position            : absolute;
+margin              : 0;
+left                : 24px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+opacity             : 0.3;
+}
+.homepage .modelsnearyou .amylu {
+background-color    : rgba(255,255,255,0.0);
+top                 : 314px;
+height              : 70px;
+width               : 179px;
+position            : absolute;
+margin              : 0;
+left                : 17px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .amylu .amylu2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .amylu .amylu2 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .amylu .amylu1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 21px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 118px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .modelsnearyou .line2 {
+background-color    : rgba(192, 184, 184, 1.0);
+top                 : 290px;
+height              : 0px;
+width               : 189px;
+position            : absolute;
+margin              : 0;
+left                : 24px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+opacity             : 0.3;
+}
+.homepage .modelsnearyou .winniezheng {
+background-color    : rgba(255,255,255,0.0);
+top                 : 194px;
+height              : 71px;
+width               : 209px;
+position            : absolute;
+margin              : 0;
+left                : 17px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .winniezheng .winniezheng1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 27px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .modelsnearyou .winniezheng .winniephoto {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 71px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .winniezheng .winniephoto .winniephoto1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 71px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .line3 {
+background-color    : rgba(192, 184, 184, 1.0);
+top                 : 169px;
+height              : 0px;
+width               : 189px;
+position            : absolute;
+margin              : 0;
+left                : 24px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+opacity             : 0.3;
+}
+.homepage .modelsnearyou .nathanpark {
+background-color    : rgba(255,255,255,0.0);
+top                 : 77px;
+height              : 70px;
+width               : 198px;
+position            : absolute;
+margin              : 0;
+left                : 17px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .nathanpark .nathanpark2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 22px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 99px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+font-size           : 18.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 21.0px;
+}
+.homepage .modelsnearyou .nathanpark .nathanpark1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .nathanpark .nathanpark1 .nathanpark3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .modelsnearyou .modelsnearyou1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+font-size           : 35.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 41.0px;
+}
+.homepage .hotspot {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : 24px;
+width               : 73px;
+position            : absolute;
+margin              : 0;
+left                : 1192px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 140px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .homebar {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 140px;
+width               : 1440px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .logout {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 1283px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+font-size           : 20.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 24.0px;
+}
+.homepage .topnagivation .account {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 1192px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+font-size           : 20.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 24.0px;
+}
+.homepage .topnagivation .photosign {
+background-color    : rgba(255,255,255,0.0);
+top                 : 35px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 146px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+font-family         : "SFProDisplay-Light", Helvetica, Arial, serif;
+font-size           : 50.0px;
+color               : rgba(0, 0, 0, 1.0);
+text-align          : left;
+line-height         : 60.0px;
+}
+.homepage .topnagivation .flaticon {
+background-color    : rgba(255,255,255,0.0);
+top                 : 35px;
+height              : 74px;
+width               : 74px;
+position            : absolute;
+margin              : 0;
+left                : 42px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .icon {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 74px;
+width               : 74px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .icon .iconshape {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 74px;
+width               : 74px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .colorbase {
+background-color    : rgba(255,255,255,0.0);
+top                 : 2px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 2px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .colorbase .bevel {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 70px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .colorbase .prettycolors {
+background-color    : rgba(255,255,255,0.0);
+top                 : 5px;
+height              : 60px;
+width               : 60px;
+position            : absolute;
+margin              : 0;
+left                : 5px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .colorbase .surrounding {
+background-color    : rgba(255,255,255,0.0);
+top                 : 4px;
+height              : 62px;
+width               : 62px;
+position            : absolute;
+margin              : 0;
+left                : 4px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .knobshadow {
+background-color    : rgba(255,255,255,0.0);
+top                 : 17px;
+height              : 39px;
+width               : 33px;
+position            : absolute;
+margin              : 0;
+left                : 20px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .knobbase {
+background-color    : rgba(255,255,255,0.0);
+top                 : 22px;
+height              : 30px;
+width               : 30px;
+position            : absolute;
+margin              : 0;
+left                : 22px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .topnagivation .flaticon .knobbase .innerknob {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 28px;
+width               : 28px;
+position            : relative;
+margin              : 0;
+left                : 1px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+.homepage .hotspot1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : 24px;
+width               : 69px;
+position            : absolute;
+margin              : 0;
+left                : 1283px;
+-ms-transform       : rotate(0deg); /* IE 9 */
+-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+opacity             : 0;
+display             : block;
+-webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+-moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+-o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+opacity             : 1;
+display             : block;
+-webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+-moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+-o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+-webkit-animation-delay: 0;
+-moz-animation-delay: 0;
+-o-animation-delay  : 0;
+animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@-moz-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@-o-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
