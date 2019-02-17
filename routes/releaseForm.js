@@ -1,12 +1,17 @@
-
 const hellosign = require('hellosign-sdk')({ key: '5c06ce44f3fe798ba5cbfaae4ac8ddedc8b176a0a846b26e4b9513bb2c271b3e' });
 
-var modelJson = require("./data/model.json");
+var partnerUser = require('../partnerUser.json');
 
-var photographerJson = require("./data/photographer.json");
+var currentUser = require('../currentUser.json');
+
+//var modelJson = require("./data/model.json");
+
+//var photographerJson = require("./data/photographer.json");
 
 exports.form = function(req, res) {
-  console.log(modelJson);
+  var modelJson = partnerUser;
+  var photographerJson = currentUser;
+  
   sendForm(modelJson, photographerJson)
     .then(function(response){
       var signatureId = response.signature_request.signatures[0].signature_id;
@@ -29,7 +34,7 @@ exports.form = function(req, res) {
 var clientID = '5c4de85db6346506547adfc62691f36f';
 var url = "";
 
-function sendForm(photographerJson, modelJson){
+function sendForm(){
   const opts = {
     test_mode: 1,
     clientId: clientID,
@@ -38,14 +43,14 @@ function sendForm(photographerJson, modelJson){
     message: 'Sign this form and we can start working together',
     signers: [
       {
-        email_address: modelJson["email"],
-        name: modelJson["name"],
+        email_address: partnerUser["email"],
+        name: partnerUser["name"],
         role: 'Model'
       }
     ],
     custom_fields: {
-      photographerName: photographerJson["name"],
-      modelName: modelJson["name"]
+      photographerName: currentUser["name"],
+      modelName: partnerUser["name"]
     }
   };
   return hellosign.signatureRequest.createEmbeddedWithTemplate(opts);

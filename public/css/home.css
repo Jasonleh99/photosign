@@ -1,22 +1,22 @@
 @font-face {
     font-family: "SFProDisplay-Semibold";
-    src: url('../fonts/SF-Pro-Display-Semibold.otf') format("opentype");
+    src: url('../fonts/SFProDisplay-Semibold.ttf');
   }
   @font-face {
     font-family: "SFProDisplay-Medium";
-    src: url('../fonts/SF-Pro-Display-Medium.otf') format("opentype");
+    src: url('../fonts/SFProDisplay-Medium.ttf');
   }
   @font-face {
     font-family: "SFProDisplay-Light";
-    src: url('../fonts/SF-Pro-Display-Light.otf') format("opentype");
+    src: url('../fonts/SFProDisplay-Light.ttf');
   }
   @font-face {
     font-family: "SFProDisplay-Bold";
-    src: url('../fonts/SF-Pro-Display-Bold.otf') format("opentype");
+    src: url('../fonts/SFProDisplay-Bold.ttf');
   }
   @font-face {
     font-family: "SFProDisplay-Regular";
-    src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
+    src: url('../fonts/SFProDisplay-Regular.ttf');
   }
 
 #home-logo {

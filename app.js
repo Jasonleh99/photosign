@@ -57,11 +57,20 @@ app.get('/encodeImage', cloudManager.encodeImage);
 
 app.get('/', landing.view);
 app.get('/messages', messages.view);
+
 app.get('/release-form', releaseForm.form);
 app.get('/signup', signup.view);
 app.get('/login', login.view);
 app.get('/home', home.view);
 app.get('/accountPage', accountPage.view);
+app.get('/getSelf', messages.getSelf);
+app.get('/getPartner', messages.getPartner);
+
+
+app.post('/updateUser', signup.update);
+app.post('/updateUser2', login.update);
+app.post('/uploadImage', accountPage.saveImage);
+app.post('/sendPartner', messages.updatePartner);
 // Example route
 // app.get('/users', user.list);
 

@@ -44,3 +44,18 @@ a:hover {
      text-decoration: none; 
      cursor: pointer;
 }
+
+.btn-custom-large {
+    color: white;
+    background-color: #ff87a1;
+    border-color: #ff87a1;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-custom-large:hover {
+    color: #ff87a1;
+    background-color: white;
+}

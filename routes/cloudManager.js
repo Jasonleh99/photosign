@@ -18,6 +18,10 @@
 // Imports the Google Cloud client library
 const {Storage} = require('@google-cloud/storage');
 
+// Creates a client
+var projectId = "photosign-232002";
+const storage = new Storage({projectId});
+
 String.prototype.hashCode = function() {
   var hash = 0, i, chr;
   if (this.length === 0) return hash;
@@ -75,12 +79,11 @@ exports.newPicture = function(req, res){
   res.end();
 }
 
-// Creates a client
-var projectId = "photosign-232002";
-const storage = new Storage({projectId});
+
 
 async function createNewUser(jsonObject){
   //Creates local file
+  console.log("creating user");
   var dictstring = JSON.stringify(jsonObject);
   var fs = require('fs');
   var email = jsonObject.email;
@@ -127,7 +130,7 @@ async function uploadNewPicture(jsonObject){
   });
 }
 
-async function downloadUser(email){
+async function findUser(email){
   $.get("https://www.googleapis.com/storage/v1/b/photosign/o/user/" + email.hashCode() + ".json", function(res){
     return res;
   })
